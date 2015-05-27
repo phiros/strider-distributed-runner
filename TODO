@@ -1,0 +1,6 @@
+index.js:
+* processJob needs to be transformed into a dispatcher
+	* Dispatch jobs to workers using AMQP
+	* Do we need timoeouts?
+	* strider-runner-core (core.process) functions need replacement
+	  (maybe even a rewrite of Jobs) 
